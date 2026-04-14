@@ -23,7 +23,8 @@ import pygimli as pg
 import pygimli.meshtools as mt
 from pygimli.physics import ert
 
-from inversions import create_geometry, create_scheme, create_resistivity_model, forward_simulation, run_inversion
+from forward import create_geometry, create_scheme, create_resistivity_model, forward_simulation
+from inversions import run_inversion
 from configs.physical_params import (
     world_start, world_end, landfill_polygon,
     leak_x, leak_y

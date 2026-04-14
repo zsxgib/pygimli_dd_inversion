@@ -10,7 +10,7 @@ landfill_resistivity = 200.0    # landfill基础电阻
 leak_resistivity = 10.0         # 渗漏低电阻
 
 # ========== 渗漏参数 ==========
-leak_x = 50.0                   # 渗漏点x (pyGIMLi坐标)
+leak_x = 30.0                   # 渗漏点x (pyGIMLi坐标)
 leak_y = -10.0                  # 渗漏点y (pyGIMLi坐标，0=地表，-10=膜底)
 leak_width = 5.0                # 渗漏宽度
 leak_depth = 2.0                # 渗漏深度
